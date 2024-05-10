@@ -1,3 +1,5 @@
+'use client'
+
 import Image from "next/image";
 
 export const HeaderHero = () => {
@@ -22,7 +24,7 @@ export const HeaderHero = () => {
                 type="text"
                 placeholder="Enter Your Email"
               />
-              <button className="outline-none border-none min-h-[56px] w-[173px] items-center justify-center rounded-[12px] flex text-center itemss-center bg-[#1D2130] text-white leading-[150%] text-[16px]">
+              <button className="outline-none border-none min-h-[56px] w-[173px] items-center justify-center rounded-[12px] flex text-center itemss-center bg-[#1D2130] text-white leading-[150%] text-[16px]" onClick={() => alert("clicked")}>
                 Get Free trial
               </button>
             </div>
