@@ -361,3 +361,128 @@ export const NoteIcon = () => {
     </svg>
   );
 };
+
+export const RegularAndStandardICon = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="55"
+      height="54"
+      viewBox="0 0 55 54"
+      fill="none"
+    >
+      <circle cx="27.5" cy="27" r="27" fill="#E6E6E6" />
+      <rect x="16.5" y="27" width="9" height="13" rx="4.5" fill="#1D2130" />
+      <rect x="16.5" y="16" width="20" height="9" rx="4.5" fill="#1D2130" />
+      <rect x="27.5" y="27" width="9" height="13" rx="4.5" fill="#1D2130" />
+    </svg>
+  );
+};
+
+export const PlantinumIcon = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="55"
+      height="54"
+      viewBox="0 0 55 54"
+      fill="none"
+    >
+      <circle cx="27.5" cy="27" r="27" fill="white" fill-opacity="0.38" />
+      <rect
+        x="15.5"
+        y="38"
+        width="9"
+        height="15"
+        rx="4.5"
+        transform="rotate(-90 15.5 38)"
+        fill="#6B7CFF"
+      />
+      <rect
+        x="15.5"
+        y="27"
+        width="9"
+        height="9"
+        rx="4.5"
+        transform="rotate(-90 15.5 27)"
+        fill="#6B7CFF"
+      />
+      <rect
+        x="26.5"
+        y="27"
+        width="9"
+        height="13"
+        rx="4.5"
+        transform="rotate(-90 26.5 27)"
+        fill="#6B7CFF"
+      />
+      <rect
+        x="31.5"
+        y="38"
+        width="9"
+        height="8"
+        rx="4"
+        transform="rotate(-90 31.5 38)"
+        fill="#6B7CFF"
+      />
+    </svg>
+  );
+};
+
+export const TickIcon = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="25"
+      height="24"
+      viewBox="0 0 25 24"
+      fill="none"
+    >
+      <circle cx="12.5" cy="12" r="12" fill="#D5F5EA" />
+      <path
+        d="M7.5 12.5L11.1667 16L18.5 9"
+        stroke="#1D2130"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  );
+};
+
+export const PlusIcon = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="20"
+      height="20"
+      viewBox="0 0 20 20"
+      fill="none"
+    >
+      <rect y="8" width="20" height="4" rx="2" fill="#1D2130" />
+      <rect
+        x="8"
+        y="20"
+        width="20"
+        height="4"
+        rx="2"
+        transform="rotate(-90 8 20)"
+        fill="#1D2130"
+      />
+    </svg>
+  );
+};
+
+export const MinusIcon = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="20"
+      height="4"
+      viewBox="0 0 20 4"
+      fill="none"
+    >
+      <rect width="20" height="4" rx="2" fill="#1D2130" />
+    </svg>
+  );
+};

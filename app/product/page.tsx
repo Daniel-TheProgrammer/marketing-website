@@ -52,12 +52,13 @@ export default function Product() {
             <Image src="/assets/Logo 5.png" alt="" width={196} height={40} />
           </div>
         </div>
+
       </div>
       <THeBest />
       <DataDriven />
       <TimeTracker />
       <LeadGeneration />
-      <Features page="product" />
+      <Features page="product"  />
     </>
   );
 }
