@@ -11,3 +11,14 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.thebest {
+  border-radius: 0px 67px 0px 0px;
+}
+
+.insights {
+  background: linear-gradient(54deg, #373fff 15.02%, #3acaf8 82.83%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
