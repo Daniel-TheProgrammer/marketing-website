@@ -24,23 +24,16 @@ export const FAQS = () => {
               return (
                 <div
                   onClick={() => setIndex(inx)}
-                  className="pt-[40px] px-[40px] bg-white rounded-[24px]"
-                  key={index}
-                  
+                  className="p-[40px] bg-white rounded-[24px] cursor-pointer"
+                  key={inx}
                 >
-                  <div
-                    style={{
-                      paddingBottom: index === inx ? "40px" : "16px",
-                    }}
-                    className="text-[#1D2130] leading-[140%] font-bold text-[24px]"
-                  >
+                  <div className="text-[#1D2130] leading-[140%] font-bold text-[24px] flex flex-col">
                     {faq.question}
-                  </div>
-                  <div
-                    style={{ display: index === inx ? "block" : "hidden" }}
-                    className="text-[#1D2130] leading-[150%] text-[16px] pb-[40px]"
-                  >
-                    {faq.answer}
+                    {index === inx && (
+                      <div className="text-[#1D2130] leading-[150%] text-[16px] pt-[16px]">
+                        {faq.answer}
+                      </div>
+                    )}
                   </div>
                 </div>
               );
