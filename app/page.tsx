@@ -12,7 +12,7 @@ export default function Home() {
       <Quality  />
       <Why />
       <Impressions />
-      <Features />
+      <Features  />
     </>
   );
 }

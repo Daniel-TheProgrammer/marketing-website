@@ -7,8 +7,8 @@
     --Label-gradient,
     linear-gradient(54deg, #373fff 15.02%, #3acaf8 82.83%)
   );
-  background-clip: text;
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -18,7 +18,7 @@
 
 .insights {
   background: linear-gradient(54deg, #373fff 15.02%, #3acaf8 82.83%);
-  background-clip: text;
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
