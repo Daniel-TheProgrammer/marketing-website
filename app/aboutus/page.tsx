@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Section1 } from "../components/aboutus/section1";
 import { Section2 } from "../components/aboutus/section2";
+import { Section3 } from "../components/aboutus/section3";
 
 export default function AboutUs(){
     return (
@@ -50,6 +51,7 @@ export default function AboutUs(){
         </div>
         <Section1 />
         <Section2 />
+        <Section3 />
       </>
     );
 }
