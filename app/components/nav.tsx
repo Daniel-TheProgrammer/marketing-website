@@ -23,7 +23,7 @@ export const Nav = () => {
               <Link href="/aboutus">About Us</Link>
             </li>
             <li className="text-[#1D2130] leading-[150%]  text-[16px]">
-              <Link href="#">Blog</Link>
+              <Link href="/blog">Blog</Link>
             </li>
             <li className="text-[#1D2130] leading-[150%]  text-[16px]">
               <Link href="/contact">Contact</Link>
